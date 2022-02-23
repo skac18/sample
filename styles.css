@@ -1,0 +1,62 @@
+.logo2{
+  height: 250px;
+}
+.logo3{
+  height: 350px;
+}
+
+.navbar{
+    background-image: url('navimg.jpg');
+}
+/* .heading {
+    position: relative;
+    width: 50%;
+    font-weight: bold;
+    display: inline-block;
+    background-image: url('headingcolor.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+} */
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+  }
+}
+.heading1{
+ font-size: 70px;
+ color: black;
+}
+.heading2{
+  font-size: 100px;
+  color: #191970;
+}
+
+.mainBody{
+  position: relative;
+  text-align: center;
+  height: 900px;
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.dates{
+  padding-top: 30px;
+}
+.box2 {
+    background-color: rgba(0,0,0,.5);
+    color: #09EBEE;
+    font-size: 35px;
+}

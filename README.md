@@ -1,2 +1,1 @@
-# sample
-ai-ml-webpage
+# ai-club-sample-website
